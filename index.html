@@ -1,0 +1,738 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home</title>
+  <link rel="icon" type="image/x-icon" href="img/fav.png">
+  <link href="custom.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.2.0/flowbite.min.css" rel="stylesheet" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.2.0/flowbite.min.js"></script>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+  <nav class="bg-dark    w-full z-20 top-0 start-0    ">
+    <div class=" container flex flex-wrap  justify-between  mx-auto items-start sm:items-center py-6 px-1 sm:px-5   ">
+      <a href="index.html" class=" py-2 ">
+        <img src="img/logo.svg" class="w-[115px] sm:w-full"> </a>
+      <div class="sm:flex sm:justify-items-end sm:items-center gap-6">
+        <div class="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
+          <a href="contact.html"
+            class="text-gray-700  bg-[#FFE6D0]   hover:bg-black  hover:text-[#FFE6D0]  rounded-lg font-bold text-sm sm:text-lg px-3 sm:px-6 items-center  py-2 sm:py-2 text-center  ">Get
+            Started</a>
+          <button data-collapse-toggle="navbar-multi-level" type="button"
+            class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200  "
+            aria-controls="navbar-multi-level" aria-expanded="false">
+            <span class="sr-only">Open main menu</span>
+            <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
+              <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                d="M1 1h15M1 7h15M1 13h15" />
+            </svg>
+          </button>
+        </div>
+        <div class="flex hidden w-full md:block md:w-auto sm:w-full   justify-end  end-2" id="navbar-multi-level">
+          <ul
+            class="flex flex-col p-0 md:p-4 md:p-0 mt-4  items-end  text-white md:space-x-8  md:flex-row md:mt-0 md:border-0  md:gap-5 gap-1  mr-0 sm:mr-10 font-semibold">
+            <li>
+              <a href="index.html" class="block py-2 px-3 text-lg cc-secondary md:p-0    " aria-current="page">
+                Home</a>
+            </li>
+            <li>
+              <a href="aboutus.html" class="block py-2 px-3 text-lg cc-secondary md:p-0   hover:text-[#FFE6D0]  "
+                aria-current="page">
+                About</a>
+            </li>
+            <li>
+              <a href="products.html"
+                class="block py-2 px-3 text-lg cc-secondary md:p-0   hover:text-[#FFE6D0] ">Products</a>
+            </li>
+            <li>
+              <a href="service.html"
+                class="block py-2 px-3 text-lg cc-secondary md:p-0   hover:text-[#FFE6D0] ">Service</a>
+            </li>
+            <li>
+              <a href="contact.html" class="block py-2 px-3 text-lg cc-secondary md:p-0   hover:text-[#FFE6D0] ">Contact
+                Us</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <section class="relative bg-[url('img/home-banner.svg')] bg-cover bg-center bg-no-repeat">
+    <div class="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
+      <div class="flex flex-col justify-between lg:flex-row">
+        <div class="mb-12 lg:max-w-lg lg:pr-5 lg:mb-0">
+        </div>
+        <div class="p-10 text-left border border-[#FFE6D0] rounded-lg lg:w-2/5 bg-[#ffe6d0]/80 shadow-lg">
+          <div class="mb-5 font-semibold text-black">New Arrival</div>
+          <div class="max-w-xl mb-6">
+            <h2 class="max-w-lg mb-6   text-3xl font-extrabold  text-gray-600 sm:text-4xl sm:leading-none te">
+              Discover Our <br class="hidden md:block" />
+              New Collection
+            </h2>
+            <p class="text-base text-gray-700 md:text-lg">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis.
+            </p>
+          </div>
+          <div class="flex items-center w-full mb-5">
+          </div>
+          <a href="#"
+            class="inline-flex text-lg items-center justify-center w-full h-12 px-6 font-semibold transition duration-200 hover:bg-[#FFE6D0]  rounded-lg md:w-auto  bg-white shadow-lg focus:shadow-outline focus:outline-none ">
+            Book Now
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section>
+    <div class="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
+      <div class="max-w-xl mb-10 sm:mx-auto flex flex-col gap-4">
+        <h4 class="text-lg text-gray-500 uppercase text-center">Why Choose ios?</h4>
+        <h2 class=" text-3xl sm:text-4xl font-semibold   text-center text-gray-900  ">
+          Here are a few <span class="bg-[url('img/line.png')] bg-no-repeat bg-bottom bg-contain"> reasons</span> why
+          our customers choose ios.
+          <span class="inline-block text-deep-purple-accent-400"> </span>
+        </h2>
+      </div>
+      <div class="grid gap-12 row-gap-8 lg:grid-cols-3">
+        <div class="flex">
+          <div class="mr-4">
+            <div class="flex items-center justify-center   mb-3  w-24   ">
+              <img src="img/bed.svg">
+            </div>
+          </div>
+          <div>
+            <h6 class="mb-2 font-semibold text-xl">Beds</h6>
+            <p class="text-lg text-gray-500">
+              Sed ut perspiciatis unde omnis iste natus error sit voluptatem, isa unde est nast laudantium.
+            </p>
+          </div>
+        </div>
+        <div class="flex">
+          <div class="mr-4">
+            <div class="flex items-center justify-center   mb-3   w-24  ">
+              <img src="img/sofa.svg">
+            </div>
+          </div>
+          <div>
+            <h6 class="mb-2 font-semibold text-xl">Sofa</h6>
+            <p class="text-lg text-gray-500">
+              Webtwo ipsum orkut reddit meebo skype vimeo jajah spock empressr zimbra, mobly napster.
+            </p>
+          </div>
+        </div>
+        <div class="flex">
+          <div class="mr-4">
+            <div class="flex items-center justify-center   mb-3  w-24  ">
+              <img src="img/lamb.svg">
+            </div>
+          </div>
+          <div>
+            <h6 class="mb-2 font-semibold text-xl">Lamb</h6>
+            <p class="text-lg text-gray-5">
+              Lookout flogging bilge rat main sheet bilge water nipper fluke to go on account heave down clap.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section>
+    <div class="px-4 pt-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8  ">
+      <div class="max-w-screen-sm sm:text-center sm:mx-auto">
+        <h2 class="mb-4   text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl sm:leading-none">
+          Browse The Range
+        </h2>
+        <p class="text-base text-gray-500 md:text-lg sm:px-4">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+      </div>
+    </div>
+    <div class="px-4 pb-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
+      <div class="grid gap-16  mb-8 lg:grid-cols-3  row-gap-24 sm:grid-cols-2">
+        <a href="/" aria-label="View Item">
+          <div
+            class="relative overflow-hidden transition duration-200 transform rounded shadow-lg hover:-translate-y-2 hover:shadow-2xl">
+            <img class="object-cover w-full h-full " src="img/dining.svg" alt="" />
+
+            <div
+              class="absolute inset-0 px-6 py-4 transition-opacity duration-200 bg-black bg-opacity-75 opacity-0 hover:opacity-100">
+              <p class="mb-4 text-lg font-bold text-gray-100">Mona Lisa</p>
+              <p class="text-sm tracking-wide text-gray-300">
+                Painted between 1503 and 1517, Da Vinci’s alluring portrait has been dogged by two questions since the
+                day it was made: Who’s the subject and why is she smiling?
+              </p>
+            </div>
+          </div>
+          <h3 class="text-center text-2xl font-semibold mt-6">Dining</h3>
+        </a>
+        <a href="/" aria-label="View Item">
+          <div
+            class="relative overflow-hidden transition duration-200 transform rounded shadow-lg hover:-translate-y-2 hover:shadow-2xl">
+            <img class="object-cover w-full h-full " src="img/living.svg" alt="" />
+            <div
+              class="absolute inset-0 px-6 py-4 transition-opacity duration-200 bg-black bg-opacity-75 opacity-0 hover:opacity-100">
+              <p class="mb-4 text-lg font-bold text-gray-100">The Starry Night</p>
+              <p class="text-sm tracking-wide text-gray-300">
+                Vincent Van Gogh’s most popular painting, The Starry Night was created by Van Gogh at the asylum in
+                Saint-Rémy, where he’d committed himself in 1889.
+              </p>
+            </div>
+          </div>
+          <h3 class="text-center text-2xl font-semibold mt-6">Living</h3>
+        </a>
+        <a href="/" aria-label="View Item">
+          <div
+            class="relative overflow-hidden transition duration-200 transform rounded shadow-lg hover:-translate-y-2 hover:shadow-2xl">
+            <img class="object-cover w-full h-full " src="img/bedroom.svg" alt="" />
+            <div
+              class="absolute inset-0 px-6 py-4 transition-opacity duration-200 bg-black bg-opacity-75 opacity-0 hover:opacity-100">
+              <p class="mb-4 text-lg font-bold text-gray-100">The Kiss</p>
+              <p class="text-sm tracking-wide text-gray-300">
+                Opulently gilded and extravagantly patterned, The Kiss, Gustav Klimt’s fin-de-siècle portrayal of
+                intimacy, is a mix of Symbolism and Vienna Jugendstil, the Austrian variant of Art Nouveau.
+              </p>
+            </div>
+          </div>
+          <h3 class="text-center text-2xl font-semibold mt-6">Bedroom</h3>
+        </a>
+      </div>
+    </div>
+  </section>
+  <section class="  mx-auto rounded-3xl">
+    <div
+      class="  px-4 pt-16 mx-auto rounded-lg lg:py-32 md:px-8 xl:px-20 sm:max-w-xl md:max-w-full bg-[url('img/offer-bg.svg')] bg-cover bg-no-repeat bg-center">
+      <div class="max-w-xl mx-auto lg:max-w-screen-xl">
+        <div class="mb-16 lg:max-w-lg lg:mb-0">
+          <div class="max-w-sm mb-6">
+            <div>
+              <p
+                class="inline-block px-3 py-px mb-4 text-xs font-semibold    text-gray-900 uppercase rounded-full bg-white">
+                END OF SEASON SALE
+              </p>
+            </div>
+            <h2 class="max-w-lg mb-6   text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl sm:leading-none">
+              Up To 60% Off
+            </h2>
+            <p class="text-base text-gray-700 md:text-lg">
+              We bring solutions to make life
+              easier for our customers.
+            </p>
+          </div>
+          <div class="flex items-center">
+            <a href="/"
+              class="inline-flex items-center justify-center h-12 px-6 mr-6 font-medium tracking-wide   transition duration-200 rounded shadow-md hover:bg-transparent bg-white focus:shadow-outline focus:outline-none">
+              Learn more
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section>
+    <div class="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
+      <div class="grid gap-10 lg:grid-cols-2">
+        <div class="flex items-center justify-center -mx-4 lg:pl-8">
+          <div class="flex flex-col items-end   md:pr-8 xl:pr-0">
+            <img class="object-cover mb-6 rounded shadow-lg h-28 sm:h-48 xl:h-56 w-28 sm:w-48 xl:w-56"
+              src="img/img-2.svg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260" alt="" />
+            <img class="object-cover w-20 h-20 rounded shadow-lg sm:h-32 xl:h-40 sm:w-32 xl:w-40"
+              src="img/img-3.svg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260" alt="" />
+          </div>
+          <div class="px-3">
+            <img class="object-cover w-40 h-40 rounded shadow-lg sm:h-64 xl:h-80 sm:w-64 xl:w-80"
+              src="img/img-1.svg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;w=500" alt="" />
+          </div>
+        </div>
+        <div class="flex flex-col justify-center px-3 lg:max-w-lg">
+          <div class="max-w-xl mb-6">
+            <h2 class="max-w-lg mb-6   text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl sm:leading-none">
+              Let us handle<br class="hidden md:block" />
+              your next
+              <span class="inline-block text-deep-purple-accent-400">destination</span>
+            </h2>
+            <p class="text-base text-gray-700 md:text-lg">
+              Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam
+              rem aperiam, eaque ipsa quae. explicabo.
+            </p>
+          </div>
+          <div>
+            <p class="mb-4 text-sm font-bold tracking-widest uppercase">Features</p>
+            <div class="grid space-y-3 sm:gap-2 sm:grid-cols-2 sm:space-y-0">
+              <ul class="space-y-3">
+                <li class="flex">
+                  <span class="mr-1">
+                    <svg class="w-5 h-5 mt-px text-deep-purple-accent-400" stroke="currentColor" viewBox="0 0 52 52">
+                      <polygon stroke-width="4" stroke-linecap="round" stroke-linejoin="round" fill="none"
+                        points="29 13 14 29 25 29 23 39 38 23 27 23"></polygon>
+                    </svg>
+                  </span>
+                  A slice of heaven
+                </li>
+                <li class="flex">
+                  <span class="mr-1">
+                    <svg class="w-5 h-5 mt-px text-deep-purple-accent-400" stroke="currentColor" viewBox="0 0 52 52">
+                      <polygon stroke-width="4" stroke-linecap="round" stroke-linejoin="round" fill="none"
+                        points="29 13 14 29 25 29 23 39 38 23 27 23"></polygon>
+                    </svg>
+                  </span>
+                  Disrupt inspire
+                </li>
+                <li class="flex">
+                  <span class="mr-1">
+                    <svg class="w-5 h-5 mt-px text-deep-purple-accent-400" stroke="currentColor" viewBox="0 0 52 52">
+                      <polygon stroke-width="4" stroke-linecap="round" stroke-linejoin="round" fill="none"
+                        points="29 13 14 29 25 29 23 39 38 23 27 23"></polygon>
+                    </svg>
+                  </span>
+                  Preliminary thinking
+                </li>
+              </ul>
+              <ul class="space-y-3">
+                <li class="flex">
+                  <span class="mr-1">
+                    <svg class="w-5 h-5 mt-px text-deep-purple-accent-400" stroke="currentColor" viewBox="0 0 52 52">
+                      <polygon stroke-width="4" stroke-linecap="round" stroke-linejoin="round" fill="none"
+                        points="29 13 14 29 25 29 23 39 38 23 27 23"></polygon>
+                    </svg>
+                  </span>
+                  Flipboard curmudgeon
+                </li>
+                <li class="flex">
+                  <span class="mr-1">
+                    <svg class="w-5 h-5 mt-px text-deep-purple-accent-400" stroke="currentColor" viewBox="0 0 52 52">
+                      <polygon stroke-width="4" stroke-linecap="round" stroke-linejoin="round" fill="none"
+                        points="29 13 14 29 25 29 23 39 38 23 27 23"></polygon>
+                    </svg>
+                  </span>
+                  Storage shed
+                </li>
+                <li class="flex">
+                  <span class="mr-1">
+                    <svg class="w-5 h-5 mt-px text-deep-purple-accent-400" stroke="currentColor" viewBox="0 0 52 52">
+                      <polygon stroke-width="4" stroke-linecap="round" stroke-linejoin="round" fill="none"
+                        points="29 13 14 29 25 29 23 39 38 23 27 23"></polygon>
+                    </svg>
+                  </span>
+                  Satoshi Nakamoto
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section>
+    <div class="px-4 pb-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:pb-20">
+      <div class="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8  ">
+        <div class="max-w-screen-sm sm:text-center sm:mx-auto">
+          <h2 class="mb-4   text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl sm:leading-none">
+            Our Products
+          </h2>
+          <p class="text-base text-gray-500 md:text-lg sm:px-4">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+        </div>
+      </div>
+      <div class="grid gap-6 row-gap-5 mb-8 lg:grid-cols-4 sm:row-gap-6 sm:grid-cols-2">
+        <a href="/" aria-label="View Item">
+          <div
+            class="relative overflow-hidden transition duration-200 transform rounded shadow-lg hover:-translate-y-2 hover:shadow-2xl">
+            <img class="object-cover w-full h-56 md:h-64 xl:h-80"
+              src="https://images.unsplash.com/photo-1567538096630-e0c55bd6374c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8ZnVybml0dXJlfGVufDB8fDB8fHww "
+              alt="" />
+            <div class="absolute inset-x-0 bottom-0 px-6 py-4 bg-black bg-opacity-75">
+              <h6 class="mb-2 text-white font-semibold text-xl">Sed ut </h6>
+              <p class="text-sm font-medium tracking-wide text-white">
+                perspiciatis unde omnis iste natus error
+              </p>
+            </div>
+          </div>
+        </a>
+        <a href="/" aria-label="View Item">
+          <div
+            class="relative overflow-hidden transition duration-200 transform rounded shadow-lg hover:-translate-y-2 hover:shadow-2xl">
+            <img class="object-cover w-full h-56 md:h-64 xl:h-80"
+              src="https://images.unsplash.com/photo-1592078615290-033ee584e267?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8ZnVybml0dXJlfGVufDB8fDB8fHww"
+              alt="" />
+            <div class="absolute inset-x-0 bottom-0 px-6 py-4 bg-black bg-opacity-75">
+              <h6 class="mb-2 text-white font-semibold text-xl">Leverage </h6>
+              <p class="text-sm font-medium tracking-wide text-white">
+                agile frameworks to provide a robust synopsis
+              </p>
+            </div>
+          </div>
+        </a>
+        <a href="/" aria-label="View Item">
+          <div
+            class="relative overflow-hidden transition duration-200 transform rounded shadow-lg hover:-translate-y-2 hover:shadow-2xl">
+            <img class="object-cover w-full h-56 md:h-64 xl:h-80"
+              src="https://images.unsplash.com/photo-1494438639946-1ebd1d20bf85?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fGZ1cm5pdHVyZXxlbnwwfHwwfHx8MA%3D%3D"
+              alt="" />
+            <div class="absolute inset-x-0 bottom-0 px-6 py-4 bg-black bg-opacity-75">
+              <h6 class="mb-2 text-white font-semibold text-xl">Dingy </h6>
+              <p class="text-sm font-medium tracking-wide text-white">
+                I'm tellin' you rhubaahb Bangah Jo-Jeezly
+              </p>
+            </div>
+          </div>
+        </a>
+        <a href="/" aria-label="View Item">
+          <div
+            class="relative overflow-hidden transition duration-200 transform rounded shadow-lg hover:-translate-y-2 hover:shadow-2xl">
+            <img class="object-cover w-full h-56 md:h-64 xl:h-80"
+              src="https://images.unsplash.com/photo-1493663284031-b7e3aefcae8e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGZ1cm5pdHVyZXxlbnwwfHwwfHx8MA%3D%3D"
+              alt="" />
+            <div class="absolute inset-x-0 bottom-0 px-6 py-4 bg-black bg-opacity-75">
+              <h6 class="mb-2 text-white font-semibold text-xl">Rough </h6>
+              <p class="text-sm font-medium tracking-wide text-white">
+                pomfret lemon shark plownose chimaera
+              </p>
+            </div>
+          </div>
+        </a>
+      </div>
+      <div class="grid gap-6 row-gap-5 mb-8 lg:grid-cols-4 sm:row-gap-6 sm:grid-cols-2">
+        <a href="/" aria-label="View Item">
+          <div
+            class="relative overflow-hidden transition duration-200 transform rounded shadow-lg hover:-translate-y-2 hover:shadow-2xl">
+            <img class="object-cover w-full h-56 md:h-64 xl:h-80"
+              src="https://images.unsplash.com/photo-1551298370-9d3d53740c72?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjJ8fGZ1cm5pdHVyZXxlbnwwfHwwfHx8MA%3D%3D"
+              alt="" />
+            <div class="absolute inset-x-0 bottom-0 px-6 py-4 bg-black bg-opacity-75">
+              <h6 class="mb-2 text-white font-semibold text-xl">perspiciatis </h6>
+              <p class="text-sm font-medium tracking-wide text-white">
+                Sed ut unde omnis iste natus error
+              </p>
+            </div>
+          </div>
+        </a>
+        <a href="/" aria-label="View Item">
+          <div
+            class="relative overflow-hidden transition duration-200 transform rounded shadow-lg hover:-translate-y-2 hover:shadow-2xl">
+            <img class="object-cover w-full h-56 md:h-64 xl:h-80"
+              src="https://images.unsplash.com/photo-1540932239986-30128078f3c5?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fGZ1cm5pdHVyZXxlbnwwfHwwfHx8MA%3D%3D"
+              alt="" />
+            <div class="absolute inset-x-0 bottom-0 px-6 py-4 bg-black bg-opacity-75">
+              <h6 class="mb-2 text-white font-semibold text-xl">Leverage </h6>
+              <p class="text-sm font-medium tracking-wide text-white">
+                agile frameworks to provide a robust synopsis
+              </p>
+            </div>
+          </div>
+        </a>
+        <a href="/" aria-label="View Item">
+          <div
+            class="relative overflow-hidden transition duration-200 transform rounded shadow-lg hover:-translate-y-2 hover:shadow-2xl">
+            <img class="object-cover w-full h-56 md:h-64 xl:h-80"
+              src="https://images.unsplash.com/photo-1540638349517-3abd5afc5847?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjh8fGZ1cm5pdHVyZXxlbnwwfHwwfHx8MA%3D%3D"
+              alt="" />
+            <div class="absolute inset-x-0 bottom-0 px-6 py-4 bg-black bg-opacity-75">
+              <h6 class="mb-2 text-white font-semibold text-xl"> Dingy I'm </h6>
+              <p class="text-sm font-medium tracking-wide text-white">
+                tellin' you rhubaahb Bangah Jo-Jeezly
+              </p>
+            </div>
+          </div>
+        </a>
+        <a href="/" aria-label="View Item">
+          <div
+            class="relative overflow-hidden transition duration-200 transform rounded shadow-lg hover:-translate-y-2 hover:shadow-2xl">
+            <img class="object-cover w-full h-56 md:h-64 xl:h-80"
+              src="https://images.unsplash.com/photo-1598300042247-d088f8ab3a91?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDN8fGZ1cm5pdHVyZXxlbnwwfHwwfHx8MA%3D%3D"
+              alt="" />
+            <div class="absolute inset-x-0 bottom-0 px-6 py-4 bg-black bg-opacity-75">
+              <h6 class="mb-2 text-white font-semibold text-xl"> Rough pomfret</h6>
+              <p class="text-sm font-medium tracking-wide text-white">
+                lemon shark plownose chimaera
+              </p>
+            </div>
+          </div>
+        </a>
+      </div>
+      <div class="text-center">
+        <a href="/" aria-label=""
+          class="inline-flex items-center font-semibold transition-colors duration-200 text-white	bg-orange-300	 hover:text-deep-purple-800 px-5 py-2 rounded">
+          See more
+          <svg class="inline-block w-3 ml-2" fill="currentColor" viewBox="0 0 12 12">
+            <path
+              d="M9.707,5.293l-5-5A1,1,0,0,0,3.293,1.707L7.586,6,3.293,10.293a1,1,0,1,0,1.414,1.414l5-5A1,1,0,0,0,9.707,5.293Z">
+            </path>
+          </svg>
+        </a>
+      </div>
+    </div>
+  </section>
+  <section class="  ">
+    <div class="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8  ">
+      <div class="max-w-screen-sm sm:text-center sm:mx-auto">
+        <h2 class="mb-4   text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl sm:leading-none">
+          Gallery
+        </h2>
+        <p class="text-base text-gray-500 md:text-lg sm:px-4">
+          #FuniroFurniture </p>
+      </div>
+    </div>
+    <div class="container mx-auto">
+      <div class="slider relative overflow-hidden    ">
+        <div class="slide-track">
+          <div class="slide   ">
+            <img
+              src="https://images.unsplash.com/photo-1611967164521-abae8fba4668?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDJ8fGZ1cm5pdHVyZXxlbnwwfHwwfHx8MA%3D%3D">
+          </div>
+          <div class="slide   ">
+            <img
+              src="https://images.unsplash.com/photo-1589834390005-5d4fb9bf3d32?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDR8fGZ1cm5pdHVyZXxlbnwwfHwwfHx8MA%3D%3D">
+          </div>
+          <div class="slide   ">
+            <img
+              src="https://images.unsplash.com/photo-1611486212557-88be5ff6f941?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDh8fGZ1cm5pdHVyZXxlbnwwfHwwfHx8MA%3D%3D">
+          </div>
+          <div class="slide   ">
+            <img
+              src="https://plus.unsplash.com/premium_photo-1682484702952-e3bb37dfec97?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDl8fGZ1cm5pdHVyZXxlbnwwfHwwfHx8MA%3D%3D">
+          </div>
+          <div class="slide   ">
+            <img
+              src="https://images.unsplash.com/photo-1596079890687-58c51d24889a?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTF8fGZ1cm5pdHVyZXxlbnwwfHwwfHx8MA%3D%3D">
+          </div>
+          <div class="slide   ">
+            <img
+              src="https://images.unsplash.com/photo-1601366533287-5ee4c763ae4e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTJ8fGZ1cm5pdHVyZXxlbnwwfHwwfHx8MA%3D%3D">
+          </div>
+          <div class="slide   ">
+            <img
+              src="https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTh8fGZ1cm5pdHVyZXxlbnwwfHwwfHx8MA%3D%3D">
+          </div>
+          <div class="slide   ">
+            <img
+              src="https://images.unsplash.com/photo-1611486212355-d276af4581c0?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NjB8fGZ1cm5pdHVyZXxlbnwwfHwwfHx8MA%3D%3D">
+          </div>
+          <div class="slide   ">
+            <img
+              src="https://images.unsplash.com/photo-1587702068694-a909ef4aa346?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTZ8fGZ1cm5pdHVyZXxlbnwwfHwwfHx8MA%3D%3D">
+          </div>
+          <div class="slide   ">
+            <img
+              src="https://images.unsplash.com/photo-1567016546367-c27a0d56712e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NjJ8fGZ1cm5pdHVyZXxlbnwwfHwwfHx8MA%3D%3D">
+          </div>
+          <div class="slide   ">
+            <img
+              src="https://images.unsplash.com/photo-1600607686527-6fb886090705?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NjZ8fGZ1cm5pdHVyZXxlbnwwfHwwfHx8MA%3D%3D">
+          </div>
+          <div class="slide   ">
+            <img
+              src="https://images.unsplash.com/photo-1581539250439-c96689b516dd?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NjR8fGZ1cm5pdHVyZXxlbnwwfHwwfHx8MA%3D%3D">
+          </div>
+          <div class="slide   ">
+            <img
+              src="https://images.unsplash.com/photo-1632829882891-5047ccc421bc?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NjN8fGZ1cm5pdHVyZXxlbnwwfHwwfHx8MA%3D%3D">
+          </div>
+          <div class="slide   ">
+            <img
+              src="https://plus.unsplash.com/premium_photo-1668245539958-3e6e6259c00b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Njl8fGZ1cm5pdHVyZXxlbnwwfHwwfHx8MA%3D%3D">
+          </div>
+          <div class="slide   ">
+            <img
+              src="https://images.unsplash.com/photo-1611269154421-4e27233ac5c7?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Njd8fGZ1cm5pdHVyZXxlbnwwfHwwfHx8MA%3D%3D">
+          </div>
+          <div class="slide   ">
+            <img
+              src="https://images.unsplash.com/photo-1634497885778-152eb6fd543d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NzJ8fGZ1cm5pdHVyZXxlbnwwfHwwfHx8MA%3D%3D">
+          </div>
+          <div class="slide   ">
+            <img
+              src="https://images.unsplash.com/photo-1584901723137-bde3633dc2c2?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NzB8fGZ1cm5pdHVyZXxlbnwwfHwwfHx8MA%3D%3D">
+          </div>
+          <div class="slide   ">
+            <img
+              src="https://images.unsplash.com/photo-1597072689227-8882273e8f6a?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NzZ8fGZ1cm5pdHVyZXxlbnwwfHwwfHx8MA%3D%3D">
+          </div>
+          <div class="slide   ">
+            <img
+              src="https://images.unsplash.com/photo-1549187774-b4e9b0445b41?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NzF8fGZ1cm5pdHVyZXxlbnwwfHwwfHx8MA%3D%3D">
+          </div>
+          <div class="slide   ">
+            <img
+              src="https://images.unsplash.com/photo-1615471618985-97108e2ba478?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NzR8fGZ1cm5pdHVyZXxlbnwwfHwwfHx8MA%3D%3D">
+          </div>
+          <div class="slide   ">
+            <img
+              src="https://plus.unsplash.com/premium_photo-1663013668671-d453f319544f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NzN8fGZ1cm5pdHVyZXxlbnwwfHwwfHx8MA%3D%3D">
+          </div>
+          <div class="slide   ">
+            <img
+              src="https://images.unsplash.com/photo-1615875605825-5eb9bb5d52ac?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8ODJ8fGZ1cm5pdHVyZXxlbnwwfHwwfHx8MA%3D%3D">
+          </div>
+          <div class="slide   ">
+            <img
+              src="https://images.unsplash.com/photo-1617364852223-75f57e78dc96?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8ODB8fGZ1cm5pdHVyZXxlbnwwfHwwfHx8MA%3D%3D">
+          </div>
+          <div class="slide   ">
+            <img
+              src="https://plus.unsplash.com/premium_photo-1663126298656-33616be83c32?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8ODV8fGZ1cm5pdHVyZXxlbnwwfHwwfHx8MA%3D%3D">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer class="bg-white">
+    <div class="mx-auto  px-4 py-6 sm:px-6 lg:px-8">
+      <div
+        class=" max-w-screen-lg flex flex-col justify-center items-center gap-4 rounded-lg bg-indigo-600 p-5 sm:p-20 shadow-lg sm:flex-col sm:justify-between bg-gradient-to-r from-orange-50 to-orange-100 mx-auto">
+        <h4>Join Our Community</h4>
+        <strong class="text-2xl text-black  text-center">We are trusted by over 5000+ clients.
+          Join them now and grow your business.</strong>
+        <a class="inline-flex items-center gap-2 rounded-full border border-white bg-white px-8 py-3 text-orange-300 hover:bg-orange-300 hover:text-white focus:outline-none focus:ring active:bg-white/90"
+          href="#">
+          <span class="text-sm font-medium"> Let's Get Started </span>
+          <svg class="size-5 rtl:rotate-180" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+            stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3" />
+          </svg>
+        </a>
+      </div>
+      <div class="mx-auto max-w-screen-xl px-4 pb-6 pt-16 sm:px-6 lg:px-8 lg:pt-24">
+        <div class="grid grid-cols-1 gap-8 lg:grid-cols-3">
+          <div>
+            <div class="flex justify-center text-orange-300	 sm:justify-start">
+              <img src="img/logo.svg">
+            </div>
+            <p class="mt-6 max-w-md text-center leading-relaxed text-gray-500 sm:max-w-xs sm:text-left">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt consequuntur amet culpa
+              cum itaque neque.
+            </p>
+            <ul class="mt-8 flex justify-center gap-6 sm:justify-start md:gap-8">
+              <li>
+                <a href="#" rel="noreferrer" target="_blank" class="   transition  ">
+                  <span class="sr-only">Facebook</span>
+                  <svg class="h-6 w-6" fill="#ddd" viewBox="0 0 24 24" aria-hidden="true">
+                    <path fill-rule="evenodd"
+                      d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z"
+                      clip-rule="evenodd" />
+                  </svg>
+                </a>
+              </li>
+              <li>
+                <a href="#" rel="noreferrer" target="_blank" class="   transition  ">
+                  <span class="sr-only">Instagram</span>
+                  <svg class="h-6 w-6" fill="#ddd" viewBox="0 0 24 24" aria-hidden="true">
+                    <path fill-rule="evenodd"
+                      d="M12.315 2c2.43 0 2.784.013 3.808.06 1.064.049 1.791.218 2.427.465a4.902 4.902 0 011.772 1.153 4.902 4.902 0 011.153 1.772c.247.636.416 1.363.465 2.427.048 1.067.06 1.407.06 4.123v.08c0 2.643-.012 2.987-.06 4.043-.049 1.064-.218 1.791-.465 2.427a4.902 4.902 0 01-1.153 1.772 4.902 4.902 0 01-1.772 1.153c-.636.247-1.363.416-2.427.465-1.067.048-1.407.06-4.123.06h-.08c-2.643 0-2.987-.012-4.043-.06-1.064-.049-1.791-.218-2.427-.465a4.902 4.902 0 01-1.772-1.153 4.902 4.902 0 01-1.153-1.772c-.247-.636-.416-1.363-.465-2.427-.047-1.024-.06-1.379-.06-3.808v-.63c0-2.43.013-2.784.06-3.808.049-1.064.218-1.791.465-2.427a4.902 4.902 0 011.153-1.772A4.902 4.902 0 015.45 2.525c.636-.247 1.363-.416 2.427-.465C8.901 2.013 9.256 2 11.685 2h.63zm-.081 1.802h-.468c-2.456 0-2.784.011-3.807.058-.975.045-1.504.207-1.857.344-.467.182-.8.398-1.15.748-.35.35-.566.683-.748 1.15-.137.353-.3.882-.344 1.857-.047 1.023-.058 1.351-.058 3.807v.468c0 2.456.011 2.784.058 3.807.045.975.207 1.504.344 1.857.182.466.399.8.748 1.15.35.35.683.566 1.15.748.353.137.882.3 1.857.344 1.054.048 1.37.058 4.041.058h.08c2.597 0 2.917-.01 3.96-.058.976-.045 1.505-.207 1.858-.344.466-.182.8-.398 1.15-.748.35-.35.566-.683.748-1.15.137-.353.3-.882.344-1.857.048-1.055.058-1.37.058-4.041v-.08c0-2.597-.01-2.917-.058-3.96-.045-.976-.207-1.505-.344-1.858a3.097 3.097 0 00-.748-1.15 3.098 3.098 0 00-1.15-.748c-.353-.137-.882-.3-1.857-.344-1.023-.047-1.351-.058-3.807-.058zM12 6.865a5.135 5.135 0 110 10.27 5.135 5.135 0 010-10.27zm0 1.802a3.333 3.333 0 100 6.666 3.333 3.333 0 000-6.666zm5.338-3.205a1.2 1.2 0 110 2.4 1.2 1.2 0 010-2.4z"
+                      clip-rule="evenodd" />
+                  </svg>
+                </a>
+              </li>
+              <li>
+                <a href="#" rel="noreferrer" target="_blank" class="   transition   ">
+                  <span class="sr-only">x</span>
+
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="h-6 w-6" fill="#ddd">
+                    <path
+                      d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z" />
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="grid grid-cols-1 gap-8 sm:grid-cols-2 md:grid-cols-3 lg:col-span-2">
+            <div class="text-center sm:text-left">
+              <p class="text-lg font-medium text-gray-900">Contact Us</p>
+              <ul class="mt-8 space-y-4 text-sm">
+                <li>
+                  <a class="flex items-center justify-center gap-1.5 ltr:sm:justify-start rtl:sm:justify-end" href="#">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="size-5 shrink-0 text-gray-900" fill="none"
+                      viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                      <path stroke-linecap="round" stroke-linejoin="round"
+                        d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                    </svg>
+                    <span class="flex-1 text-gray-700">john@doe.com</span>
+                  </a>
+                </li>
+                <li>
+                  <a class="flex items-center justify-center gap-1.5 ltr:sm:justify-start rtl:sm:justify-end" href="#">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="size-5 shrink-0 text-gray-900" fill="none"
+                      viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                      <path stroke-linecap="round" stroke-linejoin="round"
+                        d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
+                    </svg>
+                    <span class="flex-1 text-gray-700">0123456789</span>
+                  </a>
+                </li>
+                <li class="flex items-start justify-center gap-1.5 ltr:sm:justify-start rtl:sm:justify-end">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="size-5 shrink-0 text-gray-900" fill="none"
+                    viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                      d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+                  </svg>
+                  <address class="-mt-0.5 flex-1 not-italic text-gray-700">
+                    213 Lane, London, United Kingdom
+                  </address>
+                </li>
+              </ul>
+            </div>
+            <div class="text-center sm:text-left">
+              <p class="text-lg font-medium text-gray-900">About Us</p>
+              <ul class="mt-8 space-y-4 text-sm">
+                <li>
+                  <a class="text-gray-700 transition hover:text-gray-700/75" href="#">
+                    Company History
+                  </a>
+                </li>
+                <li>
+                  <a class="text-gray-700 transition hover:text-gray-700/75" href="#">
+                    Meet the Team
+                  </a>
+                </li>
+                <li>
+                  <a class="text-gray-700 transition hover:text-gray-700/75" href="#">
+                    Employee Handbook
+                  </a>
+                </li>
+                <li>
+                  <a class="text-gray-700 transition hover:text-gray-700/75" href="#"> Careers </a>
+                </li>
+              </ul>
+            </div>
+            <div class="text-center sm:text-left">
+              <p class="text-lg font-medium text-gray-900">Quick Links</p>
+              <ul class="mt-8 space-y-4 text-sm">
+                <li>
+                  <a class="text-gray-700 transition hover:text-gray-700/75" href="index.html">
+                    Home
+                  </a>
+                </li>
+                <li>
+                  <a class="text-gray-700 transition hover:text-gray-700/75" href="aboutus.html"> About Us </a>
+                </li>
+                <li>
+                  <a class="text-gray-700 transition hover:text-gray-700/75" href="products.html"> Product </a>
+                </li>
+                <li>
+                  <a class="text-gray-700 transition hover:text-gray-700/75" href="service.html"> Services </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="mt-12 border-t border-gray-100 pt-6">
+          <div class="text-center sm:flex sm:justify-between sm:text-left">
+            <p class="text-sm text-gray-500">
+              <span class="block sm:inline">All rights reserved.</span>
+              <a class="inline-block text-orange-300 underline transition hover:text-gray-300" href="#">
+                Terms & Conditions
+              </a>
+              <span>&middot;</span>
+              <a class="inline-block text-orange-300 underline transition hover:text-gray-300" href="#">
+                Privacy Policy
+              </a>
+            </p>
+            <p class="mt-4 text-sm text-gray-500 sm:order-first sm:mt-0">&copy; 2024 IoS Furniture</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
